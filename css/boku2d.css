@@ -1,0 +1,46 @@
+.clearfix {
+	/zoom : 1;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.toggle {
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#world1, #world2 {
+	float: left;
+}
+
+#world1 {
+	margin: 60px;
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+
+.object {
+	position: absolute;
+	background: black;
+}
+.object.little {
+	width: 20px;
+	height: 20px;
+}
+.object.controll {
+	background: purple;
+}
+.object.float {
+	background: green;
+}
+.object.fixed {
+	background: blue;
+}
+.object.onContact {
+	background: red;
+}
